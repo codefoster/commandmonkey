@@ -1,0 +1,8 @@
+node_modules
+azure.err
+*.publishsettings
+.ntvs_analysis.dat
+bin/
+bld/
+*.suo
+*.jsproj.user

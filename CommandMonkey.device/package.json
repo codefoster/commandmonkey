@@ -1,0 +1,10 @@
+{
+  "name": "CommandMonkey.device",
+  "version": "0.0.0",
+  "description": "CommandMonkey.device",
+  "main": "app.js",
+  "author": {
+    "name": "jerfost",
+    "email": ""
+  }
+}
