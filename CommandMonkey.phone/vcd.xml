@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.1">
+
+  <CommandSet xml:lang="en-us" Name="examplevcd">
+    <CommandPrefix>Monkey</CommandPrefix>
+    <Example>Command the monkey!</Example>
+
+    <Command Name="command">
+      <Example>command</Example>
+      <ListenFor>command</ListenFor>
+      <Feedback>Commanding...</Feedback>
+      <Navigate/>
+    </Command>
+
+  </CommandSet>
+
+</VoiceCommands>

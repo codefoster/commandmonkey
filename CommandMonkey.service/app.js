@@ -5,7 +5,7 @@ var targetSocket;
 
 app.set('port', process.env.PORT);
 app.get('/api/command', function (req, res) {
-    targetSocket.emit('command', req.query.cmd);
+    if(targetSocket) targetSocket.emit('command', req.query.cmd);
 });
 
 module.exports = app;
@@ -19,10 +19,5 @@ io.on('connection', function (socket) {
     socket.on('setTarget', function () {
         console.log('Setting ' + socket.id + ' as target...');
         targetSocket = socket
-    });
-    socket.on('command', function (cmd) {
-        console.log('Received command: ' + cmd);
-        console.log('Sending ' + cmd + ' command to target...');
-        if (targetSocket) targetSocket.emit('command', cmd);
     });
 });
