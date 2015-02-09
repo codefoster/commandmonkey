@@ -7,12 +7,17 @@
     <Example>Command the monkey!</Example>
 
     <Command Name="command">
-      <Example>command</Example>
-      <ListenFor>command</ListenFor>
+      <Example>dance</Example>
+      <ListenFor>{command}</ListenFor>
       <Feedback>Commanding...</Feedback>
       <Navigate/>
     </Command>
 
+    <PhraseList Label="command">
+      <Item>dance</Item>
+      <Item>chatter</Item>
+    </PhraseList>
+    
   </CommandSet>
 
 </VoiceCommands>

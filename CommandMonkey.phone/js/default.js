@@ -12,7 +12,11 @@
         var vcm = Windows.Media.SpeechRecognition.VoiceCommandManager;
         sf.getFileFromApplicationUriAsync(new Windows.Foundation.Uri("ms-appx:///vcd.xml"))
             .then(function (file) {
-                vcm.installCommandSetsFromStorageFileAsync(file);
+                vcm.installCommandSetsFromStorageFileAsync(file)
+                    //.then(
+                    //    function () { debugger; },
+                    //    function (err) { debugger; }
+                    //);
             });
 
         if (args.detail.kind === activation.ActivationKind.launch) {
@@ -27,10 +31,8 @@
         }
 
         else if (args.detail.kind === activation.ActivationKind.voiceCommand) {
-            WinJS.xhr({ url: 'http://CommandMonkey.azurewebsites.net/api/command?cmd=go' }).then(
-                function() { debugger; },
-                function(err) { debugger; }
-            );
+            var command = args.detail.result.semanticInterpretation.properties.command[0];
+            WinJS.xhr({ url: 'http://CommandMonkey.azurewebsites.net/api/command?cmd=' + command });
         }
     };
 
