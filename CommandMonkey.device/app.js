@@ -15,10 +15,3 @@ cylon.robot({
         })
     }
 }).start();
-
-////test in a console window
-//console.log("Requesting to be target...");
-//socket.emit('setTarget');
-//socket.on('command', function (cmd) {
-//    console.log('Received a command: ' + cmd);
-//})
