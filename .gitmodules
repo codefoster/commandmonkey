@@ -7,3 +7,6 @@
 [submodule "commandmonkey-wp81"]
 	path = commandmonkey-wp81
 	url = http://github.com/codefoster/commandmonkey-wp81
+[submodule "commandmonkey-service"]
+	path = commandmonkey-service
+	url = http://github.com/codefoster/commandmonkey-service
