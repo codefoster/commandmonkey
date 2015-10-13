@@ -1,9 +1,9 @@
 [submodule "commandmonkey-device"]
 	path = commandmonkey-device
-	url = https://github.com/codefoster/commandmonkey-device
+	url = http://github.com/codefoster/commandmonkey-device
 [submodule "commandmonkey-ios"]
 	path = commandmonkey-ios
-	url = https://github.com/codefoster/commandmonkey-ios
+	url = http://github.com/codefoster/commandmonkey-ios
 [submodule "commandmonkey-wp81"]
 	path = commandmonkey-wp81
 	url = http://github.com/codefoster/commandmonkey-wp81
