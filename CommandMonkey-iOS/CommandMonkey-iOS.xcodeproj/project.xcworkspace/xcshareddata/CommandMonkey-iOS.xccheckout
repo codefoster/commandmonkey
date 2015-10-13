@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>437F396B-28E2-4680-87E1-79F526FA509E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1A9B831B09AB1AE61BB610517FD1DB6BC84AEE2B</key>
+		<string>https://github.com/codefoster/commandmonkey.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CommandMonkey-iOS/CommandMonkey-iOS.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1A9B831B09AB1AE61BB610517FD1DB6BC84AEE2B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/codefoster/commandmonkey.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1A9B831B09AB1AE61BB610517FD1DB6BC84AEE2B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1A9B831B09AB1AE61BB610517FD1DB6BC84AEE2B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>commandmonkey</string>
+		</dict>
+	</array>
+</dict>
+</plist>
